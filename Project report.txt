@@ -1,0 +1,59 @@
+
+---
+
+**Project Overview: Daewoo Bus Service Website**
+BY Saifullah Awan
+
+
+I have developed a website for a Daewoo bus service using **HTML, CSS, JavaScript, and PHP**. All the code for each page (HTML, CSS, JS, and PHP) is written within a single `.php` file (e.g., `index.php` contains all code blocks together).
+
+### **User and Admin Login Functionality:**
+
+* **User Login:**
+  Users do not need to register manually. Instead, when a user books a ticket, their name and phone number are automatically stored and used as login credentials.
+
+* **Admin Login:**
+  A single admin account is created manually in the database.
+
+  * **Username:** `admin123@gmail.com`
+  * **Password:** `12345`
+
+> **Note:** On my local machine, the SQL password is set to `"mysql"`. If you are testing the project on your own system, please change the database connection password accordingly. If you don’t have a password set, you can leave it blank.
+
+---
+
+### **Website Sections & Functionalities:**
+
+1. **Gallery:**
+   Displays bus-related images fetched from Google for demonstration purposes.
+
+2. **Routes:**
+   Shows a list of selected travel routes (e.g., Islamabad, etc.).
+
+3. **About:**
+   Contains a short description about the Daewoo bus service.
+
+4. **Contact:**
+   A simple contact page with a demo email address for visual appeal.
+
+5. **Book Now:**
+
+   * Users can book tickets by entering their information (e.g., ID, name, etc.).
+   * The system will display the number of remaining seats based on bookings.
+
+6. **Admin Panel:**
+
+   * Admin can view all ticket bookings and user information.
+   * Admin has the ability to delete any user booking.
+
+7. **User Panel:**
+
+   * After booking, users can log in using their name and phone number.
+   * Users can view their booking details (e.g., seat number).
+   * Users can also cancel their tickets.
+
+> **Note:** A payment system has not been implemented in this project. Upon booking, users are shown a message indicating that payment will be collected at the terminal.
+
+---
+
+ 
